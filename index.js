@@ -4,6 +4,9 @@ let volleyball = require("volleyball");
 
 let app = express();
 
+app.get("/", (req, res, next) => {
+  res.send("<h1>We Deployed!</h1>");
+});
 app.use(volleyball);
 app.use(api);
 
