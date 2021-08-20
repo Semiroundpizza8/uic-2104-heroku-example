@@ -1,4 +1,5 @@
 const pg = require("pg");
+pg.defaults.ssl = true;
 
 // Create a connection to our DB
 const databaseName = "PuppyStore";
