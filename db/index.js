@@ -1,4 +1,4 @@
-const pg = require("pg");
+const { Client } = require("pg");
 // Create a connection to our DB
 const databaseName = "PuppyStore";
 const PORT = 5432;
